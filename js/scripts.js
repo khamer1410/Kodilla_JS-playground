@@ -1,8 +1,8 @@
 
 function printTree(rows) {
-  var star;
+	var star;
 	for (var i = 1; i < rows; i++) {
-	  star = "";
+		star = "";
 		for (var j = 0; j < i * 2 -1; j++) {
 			star += "*";
 		}
