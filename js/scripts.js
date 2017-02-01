@@ -3,8 +3,8 @@ var olifant = 'Zielone słonie';
 var olifantBig = olifant.toUpperCase();
 console.log(olifantBig);
 
-var animal = olifantBig;
-var textAnimal = text.replace('Papugi', animal);
+var animalArr = text.split(' ');
+var textAnimal = text.replace(animalArr[0], olifantBig);
 
 console.log(textAnimal);
 var textLength = textAnimal.length;
